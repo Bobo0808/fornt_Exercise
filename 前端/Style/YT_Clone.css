@@ -28,16 +28,11 @@ p {
     /* 可选：隐藏超出容器大小的内容 */
 
 
-    width: 300px;
-    display: block;
+    width: 100%;
+
 
 }
 
-.search-bar {
-    font-size: 20px;
-    margin-left: 12px;
-    display: block;
-}
 
 
 .video-title {
@@ -57,23 +52,30 @@ p {
 
 .video-author {
     margin-bottom: 4px;
+
 }
 
 .video-example {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
+    /* width: 300px; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .channel-picture {
-    display: inline-block;
+    /* display: inline-block; */
     width: 50px;
     vertical-align: top;
+    /* background-color: gray; */
 }
 
 .video-info {
-    display: inline-block;
-    width: 200px;
+
+    /* background-color: gray; */
 }
 
 .profile-picture {
@@ -84,4 +86,11 @@ p {
 
 .thumbnail-row {
     margin-bottom: 12px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
 }
