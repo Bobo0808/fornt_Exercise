@@ -28,7 +28,7 @@ p {
     /* 可选：隐藏超出容器大小的内容 */
 
 
-    width: 100%;
+    width: 85%;
 
 
 }
@@ -55,11 +55,7 @@ p {
 
 }
 
-.video-example {
-    /* width: 300px; */
-    /* display: inline-block; */
-    /* vertical-align: top; */
-}
+.video-example {}
 
 .video-info-grid {
     display: grid;

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L12Chllenge</title>
+    <style>
+        .f12 {
+            background-color: lightseagreen;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .f12 .left-section {
+            margin-left: 15px;
+            /* border: 2px solid; */
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+        }
+
+        .f12 .right-section {
+            margin-right: 15px;
+        }
+
+        .f12 .right-section button {
+            background-color: lightseagreen;
+            color: white;
+            font-weight: bold;
+            padding: 8px 10px 8px 10px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .f12 .middle-section input {
+            padding-left: 20px;
+            width: 450px;
+            height: 40px;
+            border-radius: 30px;
+        }
+
+        .e12 {
+            display: grid;
+            /* justify-content: space-between; */
+            /* border: 2px solid; */
+            box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+            width: 300px;
+        }
+
+        .e12 .word-1 {
+            margin-top: 2px;
+            display: flex;
+            justify-content: space-between;
+            padding: 3px 10px 3px 10px;
+        }
+
+        .Number {
+            background-color: lightblue;
+            border-radius: 20px;
+            width: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .g12-total {
+            margin-top: 30px;
+            width: 430px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+            border-radius: 3px;
+
+
+        }
+
+        .g12 {
+            display: flex;
+            margin-bottom: 15px;
+
+        }
+
+        .g12 .Information {
+            display: grid;
+            /* border: 1px solid; */
+            width: 200px;
+
+        }
+
+        .g12 img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            vertical-align: top;
+            margin: 10px 8px 5px 5px;
+        }
+
+        .g12 .Name {
+            margin-top: 3px;
+            font-weight: bold;
+        }
+
+        .g12 .Introduce {
+            color: gray;
+            font-size: 24px;
+        }
+
+        .g12 .Popular {
+            color: gray;
+        }
+
+
+
+        .g12 .Follow button {
+            margin: 20px 0px 0px 60px;
+            background-color: lightseagreen;
+            color: white;
+            font-weight: bold;
+            border-radius: 9px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="f12">
+        <div class="left-section">Home</div>
+        <div class="middle-section">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="right-section">
+            <button>Download</button>
+        </div>
+    </div>
+
+
+    <div class="e12">
+        <div class="word-1">
+            <div>Home</div>
+            <div class="Number">14</div>
+        </div>
+        <div class="word-1">
+            <div>Notifications</div>
+            <div class="Number">3</div>
+        </div>
+        <div class="word-1">
+            <div>Messages</div>
+            <div class="Number">5</div>
+        </div>
+    </div>
+
+    <div class="g12-total">
+        <div class="g12">
+            <img src="thumbnails\pexels-karina-badura-6982643.jpg" alt="">
+            <div class="Information">
+
+                <div class="Name">oliver</div>
+                <div class="Introduce">the Cat</div>
+                <div class="Popular">Popular</div>
+            </div>
+            <div class="Follow"><button>Follow</button></div>
+        </div>
+        <div class="g12">
+            <img src="thumbnails\pexels-karina-badura-6982643.jpg" alt="">
+            <div class="Information">
+
+                <div class="Name">oliver</div>
+                <div class="Introduce">Sleepy Cat</div>
+                <div class="Popular">Popular</div>
+            </div>
+            <div class="Follow"><button>Follow</button></div>
+        </div>
+        <div class="g12">
+            <img src="thumbnails\pexels-karina-badura-6982643.jpg" alt="">
+            <div class="Information">
+
+                <div class="Name">oliver</div>
+                <div class="Introduce">Happy Bulldog</div>
+                <div class="Popular">Popular</div>
+            </div>
+
+            <div class="Follow"><button>Follow</button></div>
+
+        </div>
+    </div>
+</body>
+
+</html>

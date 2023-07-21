@@ -11,21 +11,109 @@
 }
 
 .left-section {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 150px;
-
+    display: flex;
+    align-items: center;
 }
 
+.left-section .YTlogo {
+    margin-top: 2px;
+    width: 130px;
+}
+
+
+.left-section .hamburger-menu {
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 13px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+
 .middle-section {
-    background-color: lightpink;
+    /* background-color: lightpink; */
     flex: 1;
     margin-left: 30px;
     margin-right: 35px;
     max-width: 500px;
+    align-items: center;
+    display: flex;
 
 }
 
+.search-bar {
+    flex: 1;
+    height: 34px;
+    border-radius: 17px 0px 0px 17px;
+    padding-left: 13px;
+    font-size: 16px;
+    border: 1px solid;
+    border-color: rgb(192, 192, 192);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 37.5px;
+    width: 60px;
+    border-radius: 0px 17px 17px 0px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: -1px;
+}
+
+
+
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    /* border: 1px solid rgb(192, 192, 192); */
+    border: none;
+}
+
 .right-section {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    /* 不論如何保持同樣寬度 */
+}
+
+.right-section .photo-profile {
+    height: px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.videocam {
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+.notifications {
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.photo-profile {
+    cursor: pointer;
+    margin-right: 15px;
 }
